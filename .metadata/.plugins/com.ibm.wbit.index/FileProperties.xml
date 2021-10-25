@@ -3,12 +3,12 @@
   <model:fileProperties>
     <model:fileFullPath>/OrderManagementLib/WarehouseItemSplitIF.wsdl</model:fileFullPath>
     <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://OrderManagementLib/WarehouseItemSplitIF</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
     </model:properties>
     <model:properties>
       <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
@@ -21,6 +21,273 @@
     <model:properties>
       <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
       <model:value>3</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagementLib/OrderManagementInput.xsd</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagement/FinancialAuthorizationIF.wsdl</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ReturnCode.xsd:*/ReturnCode.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagement/FinancialAuthorizationIF</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Customer.xsd:*/Customer.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Order.xsd:*/Order.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>4</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagementLib/Customer.xsd</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagement/WarehouseAuthorizationIF.wsdl</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ReturnCode.xsd:*/ReturnCode.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagement/WarehouseAuthorizationIF</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Customer.xsd:*/Customer.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Order.xsd:*/Order.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>4</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagement/sca.module.attributes</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagementLib/sca.library.attributes:/OrderManagementLib/sca.library.attributes&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>1</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagement/FinancialOfficeBRIF.wsdl</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ReturnCode.xsd:*/ReturnCode.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagement/FinancialOfficeBRIF</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Customer.xsd:*/Customer.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Order.xsd:*/Order.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>4</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagementLib/Wharehouse.xsd</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagementLib/Order.xsd</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/ITSOModule/map/CustomerBG_to_ITSOCustomerBG.map</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://ITSOModule/map</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:CustomerBG_to_ITSOCustomerBG_map.monbak:/ITSOModule/map/CustomerBG_to_ITSOCustomerBG_map.monbak&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>1</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagement/sca.module</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagement/sca.modulex:/OrderManagement/sca.modulex&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagement/.project:/OrderManagement/.project&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>2</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagementLib/Email.xsd</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagementLib/ItemServiceIF.wsdl</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib/ItemServiceIF</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ReturnCode.xsd:*/ReturnCode.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>2</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/CustomerModule/CustomerMediation.mfc</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://CustomerModule</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagementLib/.classpath</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagementLib/.project:/OrderManagementLib/.project&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagementLib/sca.library.attributes:/OrderManagementLib/sca.library.attributes&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagementLib/sca.library:/OrderManagementLib/sca.library&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>3</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagementLib/OrderServiceIF.wsdl</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib/OrderServiceIF</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ReturnCode.xsd:*/ReturnCode.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Customer.xsd:*/Customer.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Order.xsd:*/Order.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>4</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagement/WarehouseOfficeBRIF.wsdl</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagement/WarehouseOfficeBRIF</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Order.xsd:*/Order.xsd&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>1</model:value>
+    </model:properties>
+  </model:fileProperties>
+  <model:fileProperties>
+    <model:fileFullPath>/OrderManagement/.classpath</model:fileFullPath>
+    <model:properties>
+      <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagement/.project:/OrderManagement/.project&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagement/sca.module.attributes:/OrderManagement/sca.module.attributes&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagementLib/.project:/OrderManagementLib/.project&amp;</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagement/sca.library:/OrderManagement/sca.library&amp;1</model:value>
+    </model:properties>
+    <model:properties>
+      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
+      <model:value>4</model:value>
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
@@ -58,39 +325,6 @@
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
-    <model:fileFullPath>/OrderManagementLib/ItemServiceIF.wsdl</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib/ItemServiceIF</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ReturnCode.xsd:*/ReturnCode.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>2</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/OrderManagementLib/Wharehouse.xsd</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/OrderManagementLib/Email.xsd</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
     <model:fileFullPath>/OrderManagementLib/OrderManagementIF.wsdl</model:fileFullPath>
     <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
@@ -106,96 +340,7 @@
     </model:properties>
   </model:fileProperties>
   <model:fileProperties>
-    <model:fileFullPath>/OrderManagementLib/OrderManagementInput.xsd</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/ITSOModule/map/CustomerBG_to_ITSOCustomerBG.map</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://ITSOModule/map</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:CustomerBG_to_ITSOCustomerBG_map.monbak:/ITSOModule/map/CustomerBG_to_ITSOCustomerBG_map.monbak&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>1</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/CustomerModule/CustomerMediation.mfc</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://CustomerModule</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/OrderManagementLib/.classpath</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagementLib/.project:/OrderManagementLib/.project&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagementLib/sca.library.attributes:/OrderManagementLib/sca.library.attributes&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>=com.ibm.wbit.index.workspaceOrFileRelativeRef:/OrderManagementLib/sca.library:/OrderManagementLib/sca.library&amp;1</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>3</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/OrderManagementLib/OrderServiceIF.wsdl</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="fileReference3" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Item.xsd:*/Item.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference2" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:ReturnCode.xsd:*/ReturnCode.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib/OrderServiceIF</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference1" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Customer.xsd:*/Customer.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReference0" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib=com.ibm.wbit.index.fileRelativeWithBuildPathRef:Order.xsd:*/Order.xsd&amp;</model:value>
-    </model:properties>
-    <model:properties>
-      <model:qname localName="fileReferenceIndexCount" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>4</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
     <model:fileFullPath>/OrderManagementLib/ReturnCode.xsd</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/OrderManagementLib/Customer.xsd</model:fileFullPath>
-    <model:properties>
-      <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
-      <model:value>http://OrderManagementLib</model:value>
-    </model:properties>
-  </model:fileProperties>
-  <model:fileProperties>
-    <model:fileFullPath>/OrderManagementLib/Order.xsd</model:fileFullPath>
     <model:properties>
       <model:qname localName="targetNamespace" qualifier="com.ibm.wbit.index.property"/>
       <model:value>http://OrderManagementLib</model:value>

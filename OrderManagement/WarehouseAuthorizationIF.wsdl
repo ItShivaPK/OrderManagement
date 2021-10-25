@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="WarehouseAuthorizationIF" targetNamespace="http://OrderManagement/WarehouseAuthorizationIF" xmlns:bons1="http://OrderManagementLib" xmlns:tns="http://OrderManagement/WarehouseAuthorizationIF" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://OrderManagement/WarehouseAuthorizationIF">
+      <xsd:import namespace="http://OrderManagementLib" schemaLocation="Item.xsd"/>
+      <xsd:import namespace="http://OrderManagementLib" schemaLocation="Order.xsd"/>
+      <xsd:import namespace="http://OrderManagementLib" schemaLocation="Customer.xsd"/>
+      <xsd:import namespace="http://OrderManagementLib" schemaLocation="ReturnCode.xsd"/>
+      <xsd:element name="authorize">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="customer" nillable="true" type="bons1:Customer"/>
+            <xsd:element name="order" nillable="true" type="bons1:Order"/>
+            <xsd:element name="item" nillable="true" type="bons1:Item"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="authorizeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="item" nillable="true" type="bons1:Item"/>
+            <xsd:element name="warehouseRuleRC" nillable="true" type="bons1:ReturnCode"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="authorizeRequestMsg">
+    <wsdl:part element="tns:authorize" name="authorizeParameters"/>
+  </wsdl:message>
+    <wsdl:message name="authorizeResponseMsg">
+    <wsdl:part element="tns:authorizeResponse" name="authorizeResult"/>
+  </wsdl:message>
+    <wsdl:portType name="WarehouseAuthorizationIF">
+    <wsdl:operation name="authorize">
+      <wsdl:input message="tns:authorizeRequestMsg" name="authorizeRequest"/>
+      <wsdl:output message="tns:authorizeResponseMsg" name="authorizeResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

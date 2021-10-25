@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="FinancialOfficeBRIF" targetNamespace="http://OrderManagement/FinancialOfficeBRIF" xmlns:tns="http://OrderManagement/FinancialOfficeBRIF" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <wsdl:types>
+    <xsd:schema targetNamespace="http://OrderManagement/FinancialOfficeBRIF">
+      <xsd:element name="authorize">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="customer" nillable="true" type="xsd:string"/>
+            <xsd:element name="order" nillable="true" type="xsd:string"/>
+            <xsd:element name="item" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="authorizeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="financialRuleRC" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+    <wsdl:message name="authorizeRequestMsg">
+    <wsdl:part element="tns:authorize" name="authorizeParameters"/>
+  </wsdl:message>
+    <wsdl:message name="authorizeResponseMsg">
+    <wsdl:part element="tns:authorizeResponse" name="authorizeResult"/>
+  </wsdl:message>
+    <wsdl:portType name="FinancialOfficeBRIF">
+    <wsdl:operation name="authorize">
+      <wsdl:input message="tns:authorizeRequestMsg" name="authorizeRequest"/>
+      <wsdl:output message="tns:authorizeResponseMsg" name="authorizeResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
