@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://OrderManagementLib">
+	<xsd:complexType name="Customer">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="custID"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="custName"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="address"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="zipCode"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="city" type="xsd:string"></xsd:element>
+			<xsd:element minOccurs="0" name="state" type="xsd:string"></xsd:element>
+			<xsd:element minOccurs="0" name="budget"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="soldToDate"
+				type="xsd:string">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

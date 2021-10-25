@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="C:\IBM\IID\WORKFLOW\v18.0\java\jre" version="1.8.0_171">
+<bootpath>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\bin\compressedrefs\jclSC180\vm.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\se-service.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\cuda4j.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\math.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmorb.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmcfw.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\xmldsigfw.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\xml.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\charsets.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\resources.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\rt.jar"/>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\dataaccess.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\IBM\IID\WORKFLOW\v18.0\java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\IBM\IID\v18.0\jdk" version="1.8.0_181">
+<bootpath>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\bin\compressedrefs\jclSC180\vm.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\se-service.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\cuda4j.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\math.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmorb.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmcfw.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\xmldsigfw.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\xml.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\charsets.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\resources.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\rt.jar"/>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\dataaccess.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\IBM\IID\v18.0\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

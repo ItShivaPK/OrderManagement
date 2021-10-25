@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://OrderManagementLib">
+	<xsd:complexType name="OrderManagementInput">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" name="custID"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="itemID"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="itemQty"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="submitterID"
+				type="xsd:string">
+			</xsd:element>
+			<xsd:element minOccurs="0" name="submitterEmail"
+				type="xsd:string">
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
